@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
 
-if [ -e package.json ]; the
-  echo "missing package.json."
-  exit 1
+if [ -e package.json ]; then
+    echo "missing package.json."
+    exit 1
 fi
 
 echo "Install node modules."
