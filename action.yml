@@ -1,0 +1,9 @@
+name: "Nuxt.js Generate"
+description: "GitHub Action to generate a static web application for Nuxt.js"
+author: "kappa0923"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "triangle"
+  color: "green"

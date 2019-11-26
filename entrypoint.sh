@@ -1,11 +1,6 @@
 #!/bin/sh
 set -e
 
-# if [ -e package.json ]; then
-#     echo "missing package.json."
-#     exit 1
-# fi
-
 echo "Install node modules."
 sh -c "npm ci"
 
