@@ -32,6 +32,8 @@ jobs:
       - uses: jakejarvis/firebase-deploy-action@v0.1.0
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        with:
+          args: "--only hosting"
 ```
 
 ## License
